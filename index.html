@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="login-top">
+      <h1 id="headerText" class="login-header">LOGIN</h1>
+      <p class="login-text">Please enter your Username & Password.</p>
+    </div>
+
+    <div class="login-data">
+      <label for="uname"></label>
+      <input type="text" placeholder="Username" id="uname" required>
+
+      <label for="pwd"></label>
+      <input type="password" placeholder="Password" id="pwd" required>
+    </div>
+
+    <div class="misc-container">
+      <input type="button" value="Login" id="login-button" onclick="login()">
+      <a href="#" class="psw">Forgot password?</a>
+
+      <div class="remember">
+        <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+      </div>
+
+
+    </div>
+    <div class="socials">
+      <a href="#" class="icon-links"><img src="./img/icons8-instagram-24.png" alt="" class="icon"></a>
+      <a href="#" class="icon-links"><img src="./img/icons8-twitter-24.png" alt="" class="icon"></a>
+      <a href="#" class="icon-links"><img src="./img/icons8-whatsapp-24.png" alt="" class="icon"></a>
+
+
+
+
+    </div>
+  </div>
+  <script src="./javascript.js"></script>
+</body>
+
+</html>
